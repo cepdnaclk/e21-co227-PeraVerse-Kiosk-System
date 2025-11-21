@@ -22,13 +22,13 @@ This is a sample image, to show how to add images to your page. To learn more op
 ## Team
 -  E/21/054, K.M.D.D. Bandara, [e21054@eng.pdn.ac.lk](mailto:e21054@eng.pdn.ac.lk)
 -  E/21/067, H.A.P. Chandrasekara, [e21067@eng.pdn.ac.lk](mailto:e21067@eng.pdn.ac.lk)
--  E/21/096, L.R.C.N. Dileka, [email](mailto:name@email.com)
--  E/21/106, D.M.M.B. Dissanayaka, [email](mailto:name@email.com)
--  E/21/362, K.G.S. Sathsarani, [email](mailto:name@email.com)
--  E/21/363, S.H.T. Savindi, [email](mailto:name@email.com)
--  E/21/372, L.A. Senevirathne, [email](mailto:name@email.com)
--  E/21/416, J.A.S. Uthpala, [email](mailto:name@email.com)
--  E/21/453, H.D. Suriyapperuma, [email](mailto:name@email.com)
+-  E/21/096, L.R.C.N. Dileka, [e21096@eng.pdn.ac.lk](mailto:e21096@eng.pdn.ac.lk)
+-  E/21/106, D.M.M.B. Dissanayaka, [e21106@eng.pdn.ac.lk](mailto:e21106@eng.pdn.ac.lk)
+-  E/21/362, K.G.S. Sathsarani, [e21362@eng.pdn.ac.lk](mailto:e21362@eng.pdn.ac.lk)
+-  E/21/363, S.H.T. Savindi, [e21363@eng.pdn.ac.lk](mailto:e21363@eng.pdn.ac.lk)
+-  E/21/372, L.A. Senevirathne, [e21372@eng.pdn.ac.lk](mailto:e21372@eng.pdn.ac.lk)
+-  E/21/416, J.A.S. Uthpala, [e21416@eng.pdn.ac.lk](mailto:e21416@eng.pdn.ac.lk)
+-  E/21/453, H.D. Suriyapperuma, [e21453@eng.pdn.ac.lk](mailto:e21453@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -89,7 +89,7 @@ These instructions assume a Windows PowerShell environment (this repo also conta
 
 2. Clone repository
 ```powershell
-git clone <REPO_URL>
+git clone https://github.com/cepdnaclk/e21-co227-PeraVerse-Kiosk-System.git
 cd KIOSK
 ```
 
@@ -147,8 +147,8 @@ npm run dev   # starts Vite dev server (default port 5173)
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.e21-co227-PeraVerse-Kiosk-System }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.e21-co227-PeraVerse-Kiosk-System}}){:target="_blank"}
+- [Project Repository](https://github.com/cepdnaclk/e21-co227-PeraVerse-Kiosk-System)
+- [Project Page](https://cepdnaclk.github.io/e21-co227-PeraVerse-Kiosk-System)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
@@ -157,5 +157,3 @@ npm run dev   # starts Vite dev server (default port 5173)
 
 ---
 *Developed for CO227 Computer Engineering Project, University of Peradeniya*
-[//]: # (Please refer this to learn more about Markdown syntax)
-[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
