@@ -1,30 +1,58 @@
 {
     "team": [
         {
-            "name": "Team Member Name 1",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "K.M.D.D. Bandara",
+            "email": "e21054@eng.pdn.ac.lk",
+            "eNumber": "E/21/054"
         },
         {
-            "name": "Team Member Name 2",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "H.A.P. Chandrasekara",
+            "email": "e21067@eng.pdn.ac.lk",
+            "eNumber": "E/21/067"
         },
         {
-            "name": "Team Member Name 3",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "L.R.C.N. Dileka",
+            "email": "e21096@eng.pdn.ac.lk",
+            "eNumber": "E/21/096"
+        },
+        {
+            "name": "D.M.M.B. Dissanayaka",
+            "email": "e21106@eng.pdn.ac.lk",
+            "eNumber": "E/21/106"
+        },{
+            "name": "K.G.S. Sathsarani",
+            "email": "e21362@eng.pdn.ac.lk",
+            "eNumber": "E/21/362"
+        },
+        {
+            "name": "S.H.T. Savindi",
+            "email": "e21363@eng.pdn.ac.lk",
+            "eNumber": "E/21/363"
+        },{
+            "name": "L.A. Senevirathne",
+            "email": "e21372@eng.pdn.ac.lk",
+            "eNumber": "E/21/372"
+        },
+        {
+            "name": "J.A.S. Uthpala",
+            "email": "e21416@eng.pdn.ac.lk",
+            "eNumber": "E/21/416"
+        },
+        {
+            "name": "H.D. Suriyapperuma",
+            "email": "e21453@eng.pdn.ac.lk",
+            "eNumber": "E/21/453"
         }
     ],
     "supervisors": [
         {
-            "name": "Dr. Supervisor 1",
-            "email": "email@eng.pdn.ac.lk"
+            "name": "Ms. Yasodha Vimukthi",
+            "email": "yasodhav@eng.pdn.ac.lk"
         },
         {
-            "name": "Supervisor 2",
-            "email": "email@eng.pdn.ac.lk"
+            "name": "Mr. Biswajith Dissanayake",
+            "email": "biswajithd@eng.pdn.ac.lk"
         }
     ],
-    "tags": []
+    "tags": [`React`, `Vite`, `Express.js`, `Node.js`, `PostgreSQL`, `Full-Stack`, `Kiosk`]
 }
