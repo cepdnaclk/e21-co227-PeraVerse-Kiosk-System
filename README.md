@@ -42,7 +42,7 @@ This is a sample image, to show how to add images to your page. To learn more op
 
 ## Introduction
 
-This repository (KIOSK) is a digital kiosk system for displaying campus information, events, maps, heatmaps, notifications and more. It is a lightweight full-stack project composed of a Vite + React frontend and several Node.js Express backends (per feature), backed by PostgreSQL databases in some services.
+This repository (KIOSK) is a digital kiosk system for displaying campus information,exhibits, events, maps, heatmaps, notifications and more. It is a lightweight full-stack project composed of a Vite + React frontend and several Node.js Express backends (per feature), backed by PostgreSQL databases in some services.
 
 The following report summarizes the system, key features, architecture, how to run it locally, and deployment recommendations so you can upload it to the project Git repository.
 
@@ -50,7 +50,7 @@ The following report summarizes the system, key features, architecture, how to r
 
 KIOSK consolidates multiple campus services into a single kiosk UI. The system provides:
 
-- Centralized event schedule and categories
+- Centralized event schedule and exhibits categories
 - Map and routing services (building search & routing)
 - Heatmap generation/analysis for crowd monitoring
 - Notifications and feedback capture
@@ -60,6 +60,7 @@ Impact:
 - Consolidates core campus information into a single kiosk UI for visitors and staff.
 - Encourages engagement with events and exhibits via a consistent schedule and notification system.
 - Provides analytics and heatmap data that can be used for crowd management and planning.
+- provides platform to give the feedback of the event and system.
 
 ## Features & Architecture
 
@@ -73,7 +74,7 @@ Impact:
 
 ### Architecture Overview
 - Frontend: React + Vite (source in `frontend/`) — components under `frontend/src/components/`.
-- Backends: Several small Node.js + Express services, each in its own folder under the repo root (examples: `backend_events`, `backend_map`, `backend_heatmap`, `backend_notifications`, `backend_aboutpage`).
+- Backends: Several small Node.js + Express services, each in its own folder under the repo root (examples: `backend`,`backend_events`, `backend_map`, `backend_heatmap`, `backend_notifications`, `backend_aboutpage`).
 - Database: PostgreSQL used by multiple services — DB schema files are present under `backend/*/` (for example `backend_events` references `event_db` and SQL files exist in `backend/` subfolders). Some services include `.sql` or sample DB files.
 - Local configuration: Each backend uses its own `.env` file for DB credentials and PORT. The frontend reads `VITE_API_URL` from the project root `.env`.
 - Communication: Frontend calls backend REST endpoints (e.g., `/api/events`) — ensure `VITE_API_URL` points to the correct backend host/port.
